@@ -18,10 +18,10 @@ function init() {
     const key = e.key;
   
     if (key === codes[index]) {
-    index++;
-    if (index === codes.length) {
-    alert("Hurray");
-    }
+      index++;
+      if (index === codes.length) {
+      alert("Hurray");
+      }
     }
   });
 }
