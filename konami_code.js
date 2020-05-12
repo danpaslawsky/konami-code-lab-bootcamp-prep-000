@@ -11,10 +11,12 @@ const codes = [
   "a"
 ];
 
+let index = 0;
+
 function init() {
   document.body.addEventListener('keydown', function(e) {
   console.log(e.key);
 
     
-  })
+  });
 }
