@@ -23,6 +23,5 @@ function init() {
         alert("Hurray");
      }
    }
-
   });
 }
